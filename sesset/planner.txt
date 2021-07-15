@@ -1,0 +1,79 @@
+-------------------- Agenda Planner ------------------------------------------------
+02/05/2021 22:50:00 planejamento
+
+Personas:
+
+Pessoas com finalidade de organizar suas tarefas diárias, semanais, mesnsal e anual.
+Ou àquelas querendo criar hábitos novos.
+
+
+-------------------- Briefing ------------------------------------------------------
+O quê
+Agenda planner 
+Pareto [esforço x resusltado ]
+
+Quem
+Pessoas querendo organizar suas tarefas, compromissos
+
+Quando
+Anontando diário, semanais, mensal e anual.
+
+Onde
+Qualquer lugar 
+
+Como
+Lápis, canetas de suas escolha.
+Check point,
+Quadro de prioridade.
+datas, horas,
+
+
+Por que
+Melhorar e transforma hábitos
+
+
+
+
+-------------------- Beachmarck ----------------------------------------------------
+Modelos do mercado, 
+
+-------------------- Rabiscos ------------------------------------------------------
+
+
+
+-------------------- Wireframes ----------------------------------------------------
+-hierarquia visual.
+-grids
+-tipográfias, cores, 
+
+-------------------- Styleguide ----------------------------------------------------
+Diário:
+padding checklist:
+padding prioridade:
+fonte:
+text-color:
+background-color:
+size-line write:
+size-line <br>
+
+Semanal:
+padding:
+body: 2600 px
+padding (espaço linha H): 371,43 px
+
+Mensal:
+
+body: 2600px 1900px
+padding  (espaço linha V) : 475 px
+
+
+
+
+-------------------- Alta Fidelidade -----------------------------------------------
+
+-------------------- Protótipos e Animações ----------------------------------------
+
+-------------------- Handoff -------------------------------------------------------
+
+
+

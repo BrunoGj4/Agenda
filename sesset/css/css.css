@@ -1,0 +1,302 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(97, 91, 91);
+  font-family: "Fira", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+    color: white ;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 100vh;
+
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0px 0px 20px #d4d4d4;
+
+  transition: 0.3s ease;
+}
+
+.main-menu:hover {
+  width: 240px;
+  overflow-y: scroll;
+}
+
+.main-menu .menu-item {
+  padding: 10px;
+}
+.main-menu .menu-item:hover {
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+.main-menu .menu-item .fa {
+  font-size: 25px;
+  width: 40px;
+  padding: 14px;
+  color: white;
+}
+.main-menu .menu-item:hover > .fa {
+  color: blue;
+}
+
+section#home {
+  background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  border-radius: 10px;
+}
+
+.gereciamento-projeto {
+  background-color: rgb(76, 117, 163);
+}
+
+.gp h2 {
+  background-color: rgb(76, 117, 163);
+  font-size: 2rem;
+}
+
+.ux h2 {
+  background-color: rgb(47, 143, 114);
+  font-size: 2rem;
+}
+.ux-design {
+  background-color: rgb(47, 143, 114);
+}
+#container {
+  background-color: hsl(0, 0%, 98%);
+  height: 200vh;
+}
+
+/* HEADER ================================ */
+header {
+  background-color: rgb(33, 130, 160);
+  position: relative;
+  display: flex;
+  height: 8vh;
+  margin-left: 4.4rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+header .title {
+  position: fixed;
+  height: 8vh;
+  width: 100%;
+  background-color: rgba(15, 15, 15, 0.5);
+  color: white;
+  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+header .fa {
+    position: fixed;
+    color: white;
+    right: 1rem;
+    padding: 10px;
+    font-size: 2rem;
+    top: 13px;
+}
+footer {
+  position: absolute;
+  display: block;
+  margin-left: 18rem;
+  clear: both;
+  align-items: center;
+  font-size: 15px;
+}
+
+span {
+  color: rgb(32, 151, 116);
+}
+
+/* Fases do Projeto */
+
+/* Integracao */
+.integracao a:hover {
+    color: white;
+}
+.menu-item.integracao {
+    background-color:blueviolet;
+}
+
+/* Escopo */
+.escopo a:hover {
+    color: white;
+}
+.menu-item.escopo {
+    background-color:rgb(79, 51, 105);
+}
+
+/* Tempo */
+.escopo a:hover {
+  color: white;
+}
+.menu-item.tempo {
+  background-color:rgb(6, 36, 34);
+}
+
+
+/* Custo- */
+.escopo a:hover {
+  color: white;
+}
+.menu-item.custo {
+  background-color:rgb(158, 156, 34);
+}
+
+/* RH */
+.escopo a:hover {
+  color: white;
+}
+.menu-item.rh {
+  background-color:rgb(168, 168, 164);
+}
+
+/* Qualidade */
+.escopo a:hover {
+  color: white;
+}
+.menu-item.qualidade {
+  background-color:rgb(158, 49, 22);
+}
+
+/*Comunicações*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.comunicao {
+  background-color:rgb(22, 158, 29);
+}
+
+/*Aquisições*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.aquisicoes {
+  background-color:rgb(7, 21, 26);
+}
+
+/*Riscos*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.riscos {
+  background-color:rgb(68, 12, 24);
+}
+
+/*Interesados*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.intereses {
+  background-color:rgb(164, 99, 167);
+}
+
+/*Ferramentas*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.ferramentas {
+  background-color:rgb(164, 99, 167);
+}
+
+/*Briefing*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.briefing {
+  background-color:rgb(130, 38, 134);
+}
+
+/*Beachmarck*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.beachmarck {
+  background-color:rgb(32, 26, 112);
+}
+
+/*Rabiscos*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.rabiscos {
+  background-color:rgb(165, 102, 20);
+}
+/*Wireframe*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.wireframe {
+  background-color:rgb(25, 165, 20);
+}
+/*stileguide*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.styleguide {
+  background-color:rgb(165, 20, 20);
+}
+/*Alta Fidelidade*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.fidelidade {
+  background-color:rgb(216, 230, 32);
+}
+/*Prototipo*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.prototipo {
+  background-color:rgb(201, 21, 192);
+}
+/*Handoff*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.handoff {
+  background-color:rgb(24, 197, 219);
+}
+/*Log*/
+.escopo a:hover {
+  color: white;
+}
+.menu-item.log {
+  background-color:rgb(199, 198, 197);
+}

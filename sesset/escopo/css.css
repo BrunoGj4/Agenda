@@ -1,0 +1,17 @@
+/* tag */
+body  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: black;
+ }
+a      {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+/* id */
+/* classe */
